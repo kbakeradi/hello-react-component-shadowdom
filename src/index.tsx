@@ -12,9 +12,12 @@ type HelloProps = {
 const HelloComponent:React.FC<HelloProps> = ({ name }) => {
   // name is string!
   return (
-    <root.div className="make-big">
-      HelloComponentShadow: "Hello {name}"
+    <root.div>
+      <div className="make-big">
+        HelloComponentShadow: "Hello {name}"
+      </div>
       <style type="text/css">{styles}</style>
+
     </root.div>
   );
 };
