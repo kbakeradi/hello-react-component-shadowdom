@@ -1,5 +1,5 @@
 import * as React from 'react'
-import root from 'react-shadow';
+import root from "react-shadow/styled-components";
 import styles from './styles.scss';
 
 
