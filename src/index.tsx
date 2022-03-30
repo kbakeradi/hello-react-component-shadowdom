@@ -1,6 +1,6 @@
 import * as React from 'react'
 import root from 'react-shadow';
-import styles from './styles.css';
+import styles from './styles.scss';
 
 
 type HelloProps = {
