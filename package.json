@@ -1,6 +1,6 @@
 {
-  "name": "kb-hello-react-component",
-  "version": "1.9.0",
+  "name": "kb-hello-react-component-shadowdom",
+  "version": "1.0.0",
   "description": "hello react component",
   "author": "kbaker@atomeq.com",
   "license": "Apache-2.0",
