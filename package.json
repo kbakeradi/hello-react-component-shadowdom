@@ -15,6 +15,7 @@
     "start": "rollup -c -w"
   },
   "dependencies": {
+    "react-shadow": "^19.0.2",
     "styled-components": "^5.3.5"
   },
   "peerDependencies": {

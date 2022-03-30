@@ -1,5 +1,7 @@
 import * as React from 'react'
-import './styles.scss'
+import root from 'react-shadow';
+import styles from './styles.css';
+
 
 type HelloProps = {
   name: string;
@@ -9,7 +11,12 @@ type HelloProps = {
 
 const HelloComponent:React.FC<HelloProps> = ({ name }) => {
   // name is string!
-  return <div className='make-big'>HelloComponent: "Hello {name}"</div>
+  return (
+    <root.div className="make-big">
+      HelloComponent: "Hello {name}"
+      <style type="text/css">{styles}</style>
+    </root.div>
+  );
 };
 
 export default HelloComponent;

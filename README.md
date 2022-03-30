@@ -1,6 +1,6 @@
-# Hello React Component
+# Hello React Component Shadow DOM
 
-An example React Component that shows a formatted hello headline, published to npm.
+An example React Component that shows a formatted hello headline with shadow dom styling, published to npm.
 
 ## How to use
 
@@ -34,6 +34,8 @@ Then publish your package by running
 ## References
 
 * https://styled-components.com/docs/basics#installation
+* https://github.com/Wildhoney/ReactShadow - more popular
+* https://apearce.github.io/react-shadow-root
 
 
 
