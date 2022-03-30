@@ -13,7 +13,7 @@ const HelloComponent:React.FC<HelloProps> = ({ name }) => {
   // name is string!
   return (
     <root.div className="make-big">
-      HelloComponent: "Hello {name}"
+      HelloComponentShadow: "Hello {name}"
       <style type="text/css">{styles}</style>
     </root.div>
   );
